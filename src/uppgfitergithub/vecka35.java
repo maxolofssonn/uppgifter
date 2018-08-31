@@ -5,7 +5,7 @@ public class vecka35 {
 	public static void main(String[] args) {
 		
 		
-		System.out.println(uppgift1(1,2,3,4,5,6,7,8));
+		System.out.println(uppgift2("max"));
 		
 	}
 	
@@ -23,4 +23,27 @@ public class vecka35 {
 		
 	}
 	
+	public static String uppgift2(String string){
+		
+		if(string.length() == 0){
+			
+			return string;
+			
+		}
+		
+		else {
+			
+			return uppgift2(string.substring(1)) + string.charAt(0);
+			
+		}
+		
+	}
+	
+	
+	
 }
+
+
+
+
+
