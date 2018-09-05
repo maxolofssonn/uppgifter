@@ -5,7 +5,7 @@ public class vecka35 {
 	public static void main(String[] args) {
 		
 		
-		System.out.println(uppgift2("max"));
+		System.out.println(uppgift3("max","sdfsdf","sdfsdf","sdfdgrth"));
 		
 	}
 	
@@ -36,6 +36,20 @@ public class vecka35 {
 			return uppgift2(string.substring(1)) + string.charAt(0);
 			
 		}
+		
+	}
+	
+	public static <T> T uppgift3(T... obj){
+		
+		Object[] arr = new Object[obj.length];
+		
+		for (int i = 0; i < obj.length; i++) {
+			
+			arr = (Object[]) obj[i];
+			
+		}
+		
+		return (T) arr;
 		
 	}
 	
