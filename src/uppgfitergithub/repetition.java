@@ -6,7 +6,7 @@ public class repetition {
 	
 	public static void main(String[] args) {
 		
-		uppgift2();
+		uppgift3();
 		
 	}
 	
@@ -55,6 +55,20 @@ public class repetition {
 		System.out.println(tempOrd1);
 		System.out.println(tempOrd2);
 		System.out.println(tempOrd3);
+		
+	}
+	
+	public static void uppgift3() {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Skriv in radie: ");
+		
+		double radie = sc.nextDouble();
+		double pi = Math.PI;
+		double volym = (4 * pi * radie * radie * radie) / 3;
+		
+		System.out.println(volym);
 		
 	}
 	
