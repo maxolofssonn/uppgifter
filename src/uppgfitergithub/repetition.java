@@ -104,16 +104,6 @@ public class repetition {
 		
 	}
 	
-	public static void uppgift6() {
-		
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.println("Skriv in ett heltal: ");
-		
-		int a = sc.nextInt();
-		
-	}
-	
 }
 
 
