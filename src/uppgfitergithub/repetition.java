@@ -4,9 +4,12 @@ import java.util.Scanner;
 
 public class repetition {
 	
+	static Person person = new Person();
+	static Person person2 = new Person();
+	
 	public static void main(String[] args) {
 		
-		uppgift4();
+		uppgift6(person,person2);
 		
 	}
 	
@@ -90,12 +93,14 @@ public class repetition {
 		
 	}
 	
-	public static void uppgift6() {
+	public static void uppgift6(Person p1, Person p2) {
 		
-		Person person = new Person();
-		Person person2 = new Person();
-		
-		
+		if(p1.age > p2.age) {
+			System.out.println(p1.name);
+		}
+		else if(p2.age > p1.age) {
+			System.out.println(p2.name);
+		}
 		
 	}
 	
