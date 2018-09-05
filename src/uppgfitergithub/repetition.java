@@ -4,15 +4,20 @@ public class repetition {
 	
 	public static void main(String[] args) {
 		
-		int sum = 0;
-		int[] arr = {1,2,3,4,3,2};
+		System.out.println(uppgift1(1,3,4));
 		
-		for (int i = 0; i < arr.length; i++) {
-			
-			sum = sum + arr[i];
-			
+	}
+	
+	public static int uppgift1(int... integer) {
+		
+		int sum = 0;
+		
+		for (int i = 0; i < integer.length; i++) {
+			sum = sum + integer[i];
 		}
-		System.out.println(sum);
+		
+		return sum;
+		
 	}
 	
 }
