@@ -6,7 +6,7 @@ public class repetition {
 	
 	public static void main(String[] args) {
 		
-		uppgift3();
+		uppgift4();
 		
 	}
 	
@@ -62,15 +62,35 @@ public class repetition {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Skriv in radie: ");
+		System.out.println("Skriv in radie i meter: ");
 		
 		double radie = sc.nextDouble();
 		double pi = Math.PI;
 		double volym = (4 * pi * radie * radie * radie) / 3;
 		
-		System.out.println(volym);
+		System.out.println(volym + "m^3");
 		
 	}
+	
+	public static void uppgift4() {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Skriv in två heltal: ");
+		
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		if(a < b) {
+			System.out.println(a + " är det minsta talet.");
+		}
+		else {
+			System.out.println(b + " är det minsta talet.");
+		}
+		
+	}
+	
+	
 	
 }
 
