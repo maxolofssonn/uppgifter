@@ -1,10 +1,12 @@
 package uppgfitergithub;
 
+import java.util.Scanner;
+
 public class repetition {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(uppgift1(1,3,4));
+		uppgift2();
 		
 	}
 	
@@ -20,4 +22,48 @@ public class repetition {
 		
 	}
 	
+	public static void uppgift2(){
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String ord1 = sc.nextLine();
+		String ord2 = sc.nextLine();
+		String ord3 = sc.nextLine();
+		
+		String tempOrd1 = "";
+		String tempOrd2 = "";
+		String tempOrd3 = "";
+		
+		for (int i = ord1.length()-1; i >= 0; i--) {
+			
+			tempOrd1 = tempOrd1 + ord1.charAt(i);
+			
+		}
+		
+		for (int i = ord2.length()-1; i >= 0; i--) {
+					
+			tempOrd2 = tempOrd2 + ord2.charAt(i);
+					
+		}
+		
+		for (int i = ord3.length()-1; i >= 0; i--) {
+			
+			tempOrd3 = tempOrd3 + ord3.charAt(i);
+			
+		}
+		
+		System.out.println(tempOrd1);
+		System.out.println(tempOrd2);
+		System.out.println(tempOrd3);
+		
+	}
+	
 }
+
+
+
+
+
+
+
+
