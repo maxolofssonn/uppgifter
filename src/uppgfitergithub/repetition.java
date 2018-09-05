@@ -90,7 +90,14 @@ public class repetition {
 		
 	}
 	
-	
+	public static void uppgift6() {
+		
+		Person person = new Person();
+		Person person2 = new Person();
+		
+		
+		
+	}
 	
 }
 
