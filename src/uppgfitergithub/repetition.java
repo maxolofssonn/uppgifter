@@ -12,7 +12,11 @@ public class repetition {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(uppgift8(9,7,8,5,6,3,2,4,1));
+	}
+	
+	public static String acadaba(int n) {
+		
+		
 		
 	}
 	
