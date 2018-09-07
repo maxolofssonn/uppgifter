@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class repetition {
 	
-	static Person person = new Person();
-	static Person person2 = new Person();
+	static Person person = new Person(10, "Max");
+	static Person person2 = new Person(15, "Hej");
 	
 	public static void main(String[] args) {
 		
@@ -103,6 +103,8 @@ public class repetition {
 		}
 		
 	}
+	
+	
 	
 }
 
