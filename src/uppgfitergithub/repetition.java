@@ -1,5 +1,8 @@
 package uppgfitergithub;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class repetition {
@@ -9,7 +12,7 @@ public class repetition {
 	
 	public static void main(String[] args) {
 		
-		uppgift6(person,person2);
+		System.out.println(uppgift8(9,7,8,5,6,3,2,4,1));
 		
 	}
 	
@@ -104,7 +107,23 @@ public class repetition {
 		
 	}
 	
-	
+	public static int[] uppgift8(int... massa_tal) {
+		
+		ArrayList<Integer> array = new ArrayList<Integer>();
+		
+		for(int i : massa_tal) {
+			array.add(i);
+		}
+		
+		Collections.sort(array);
+		
+		for (int i = 0; i < massa_tal.length; i++) {
+			massa_tal[i] = array.get(i);
+		}
+		
+		return massa_tal;
+		
+	}
 	
 }
 
